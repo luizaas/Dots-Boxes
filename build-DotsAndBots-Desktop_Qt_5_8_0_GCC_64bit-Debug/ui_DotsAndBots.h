@@ -9,6 +9,7 @@
 #ifndef UI_DOTSANDBOTS_H
 #define UI_DOTSANDBOTS_H
 
+#include <LineButton.h>
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
@@ -18,9 +19,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -33,71 +32,71 @@ public:
     QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QLabel *label_2;
-    QPushButton *pushButton;
+    LineButton *pushButton;
     QLabel *label;
-    QPushButton *pushButton_2;
+    LineButton *pushButton_2;
     QLabel *label_4;
-    QPushButton *pushButton_3;
+    LineButton *pushButton_3;
     QLabel *label_3;
     QHBoxLayout *horizontalLayout_2;
-    QPushButton *pushButton_8;
+    LineButton *pushButton_8;
     QLabel *label_17;
-    QPushButton *pushButton_9;
+    LineButton *pushButton_9;
     QLabel *label_19;
-    QPushButton *pushButton_7;
+    LineButton *pushButton_7;
     QLabel *label_18;
-    QPushButton *pushButton_22;
+    LineButton *pushButton_22;
     QHBoxLayout *horizontalLayout_3;
     QLabel *label_5;
-    QPushButton *pushButton_4;
+    LineButton *pushButton_4;
     QLabel *label_6;
-    QPushButton *pushButton_5;
+    LineButton *pushButton_5;
     QLabel *label_7;
-    QPushButton *pushButton_6;
+    LineButton *pushButton_6;
     QLabel *label_8;
     QHBoxLayout *horizontalLayout_4;
-    QPushButton *pushButton_10;
+    LineButton *pushButton_10;
     QLabel *label_20;
-    QPushButton *pushButton_11;
+    LineButton *pushButton_11;
     QLabel *label_21;
-    QPushButton *pushButton_12;
+    LineButton *pushButton_12;
     QLabel *label_22;
-    QPushButton *pushButton_23;
+    LineButton *pushButton_23;
     QHBoxLayout *horizontalLayout_10;
     QLabel *label_32;
-    QPushButton *pushButton_33;
+    LineButton *pushButton_33;
     QLabel *label_33;
-    QPushButton *pushButton_34;
+    LineButton *pushButton_34;
     QLabel *label_34;
-    QPushButton *pushButton_35;
+    LineButton *pushButton_35;
     QLabel *label_35;
     QHBoxLayout *horizontalLayout_9;
-    QPushButton *pushButton_29;
+    LineButton *pushButton_29;
     QLabel *label_29;
-    QPushButton *pushButton_30;
+    LineButton *pushButton_30;
     QLabel *label_30;
-    QPushButton *pushButton_31;
+    LineButton *pushButton_31;
     QLabel *label_31;
-    QPushButton *pushButton_32;
+    LineButton *pushButton_32;
     QHBoxLayout *horizontalLayout_11;
     QLabel *label_36;
-    QPushButton *pushButton_36;
+    LineButton *pushButton_36;
     QLabel *label_37;
-    QPushButton *pushButton_37;
+    LineButton *pushButton_37;
     QLabel *label_38;
-    QPushButton *pushButton_38;
+    LineButton *pushButton_38;
     QLabel *label_39;
     QMenuBar *menuBar;
-    QToolBar *mainToolBar;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *DotsAndBots)
     {
         if (DotsAndBots->objectName().isEmpty())
             DotsAndBots->setObjectName(QStringLiteral("DotsAndBots"));
-        DotsAndBots->resize(352, 425);
+        DotsAndBots->resize(352, 408);
         centralWidget = new QWidget(DotsAndBots);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setStyleSheet(QStringLiteral("*{ background-color: pink;}"));
         verticalLayout = new QVBoxLayout(centralWidget);
         verticalLayout->setSpacing(0);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -115,7 +114,7 @@ public:
 
         horizontalLayout->addWidget(label_2);
 
-        pushButton = new QPushButton(centralWidget);
+        pushButton = new LineButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setMinimumSize(QSize(90, 15));
         pushButton->setMaximumSize(QSize(90, 15));
@@ -132,7 +131,7 @@ public:
 
         horizontalLayout->addWidget(label);
 
-        pushButton_2 = new QPushButton(centralWidget);
+        pushButton_2 = new LineButton(centralWidget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setMinimumSize(QSize(90, 15));
         pushButton_2->setMaximumSize(QSize(90, 15));
@@ -149,7 +148,7 @@ public:
 
         horizontalLayout->addWidget(label_4);
 
-        pushButton_3 = new QPushButton(centralWidget);
+        pushButton_3 = new LineButton(centralWidget);
         pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
         pushButton_3->setMinimumSize(QSize(90, 15));
         pushButton_3->setMaximumSize(QSize(90, 15));
@@ -172,7 +171,7 @@ public:
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setSpacing(0);
         horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
-        pushButton_8 = new QPushButton(centralWidget);
+        pushButton_8 = new LineButton(centralWidget);
         pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
         pushButton_8->setMinimumSize(QSize(15, 90));
         pushButton_8->setMaximumSize(QSize(15, 90));
@@ -187,7 +186,7 @@ public:
 
         horizontalLayout_2->addWidget(label_17);
 
-        pushButton_9 = new QPushButton(centralWidget);
+        pushButton_9 = new LineButton(centralWidget);
         pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
         pushButton_9->setMinimumSize(QSize(15, 90));
         pushButton_9->setMaximumSize(QSize(15, 90));
@@ -202,7 +201,7 @@ public:
 
         horizontalLayout_2->addWidget(label_19);
 
-        pushButton_7 = new QPushButton(centralWidget);
+        pushButton_7 = new LineButton(centralWidget);
         pushButton_7->setObjectName(QStringLiteral("pushButton_7"));
         pushButton_7->setMinimumSize(QSize(15, 90));
         pushButton_7->setMaximumSize(QSize(15, 90));
@@ -217,7 +216,7 @@ public:
 
         horizontalLayout_2->addWidget(label_18);
 
-        pushButton_22 = new QPushButton(centralWidget);
+        pushButton_22 = new LineButton(centralWidget);
         pushButton_22->setObjectName(QStringLiteral("pushButton_22"));
         pushButton_22->setMinimumSize(QSize(15, 90));
         pushButton_22->setMaximumSize(QSize(15, 90));
@@ -240,7 +239,7 @@ public:
 
         horizontalLayout_3->addWidget(label_5);
 
-        pushButton_4 = new QPushButton(centralWidget);
+        pushButton_4 = new LineButton(centralWidget);
         pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
         pushButton_4->setMinimumSize(QSize(90, 15));
         pushButton_4->setMaximumSize(QSize(90, 15));
@@ -257,7 +256,7 @@ public:
 
         horizontalLayout_3->addWidget(label_6);
 
-        pushButton_5 = new QPushButton(centralWidget);
+        pushButton_5 = new LineButton(centralWidget);
         pushButton_5->setObjectName(QStringLiteral("pushButton_5"));
         pushButton_5->setMinimumSize(QSize(90, 15));
         pushButton_5->setMaximumSize(QSize(90, 15));
@@ -274,7 +273,7 @@ public:
 
         horizontalLayout_3->addWidget(label_7);
 
-        pushButton_6 = new QPushButton(centralWidget);
+        pushButton_6 = new LineButton(centralWidget);
         pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
         pushButton_6->setMinimumSize(QSize(90, 15));
         pushButton_6->setMaximumSize(QSize(90, 15));
@@ -297,7 +296,7 @@ public:
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setSpacing(0);
         horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
-        pushButton_10 = new QPushButton(centralWidget);
+        pushButton_10 = new LineButton(centralWidget);
         pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
         pushButton_10->setMinimumSize(QSize(15, 90));
         pushButton_10->setMaximumSize(QSize(15, 90));
@@ -312,7 +311,7 @@ public:
 
         horizontalLayout_4->addWidget(label_20);
 
-        pushButton_11 = new QPushButton(centralWidget);
+        pushButton_11 = new LineButton(centralWidget);
         pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
         pushButton_11->setMinimumSize(QSize(15, 90));
         pushButton_11->setMaximumSize(QSize(15, 90));
@@ -327,7 +326,7 @@ public:
 
         horizontalLayout_4->addWidget(label_21);
 
-        pushButton_12 = new QPushButton(centralWidget);
+        pushButton_12 = new LineButton(centralWidget);
         pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
         pushButton_12->setMinimumSize(QSize(15, 90));
         pushButton_12->setMaximumSize(QSize(15, 90));
@@ -342,7 +341,7 @@ public:
 
         horizontalLayout_4->addWidget(label_22);
 
-        pushButton_23 = new QPushButton(centralWidget);
+        pushButton_23 = new LineButton(centralWidget);
         pushButton_23->setObjectName(QStringLiteral("pushButton_23"));
         pushButton_23->setMinimumSize(QSize(15, 90));
         pushButton_23->setMaximumSize(QSize(15, 90));
@@ -365,7 +364,7 @@ public:
 
         horizontalLayout_10->addWidget(label_32);
 
-        pushButton_33 = new QPushButton(centralWidget);
+        pushButton_33 = new LineButton(centralWidget);
         pushButton_33->setObjectName(QStringLiteral("pushButton_33"));
         pushButton_33->setMinimumSize(QSize(90, 15));
         pushButton_33->setMaximumSize(QSize(90, 15));
@@ -382,7 +381,7 @@ public:
 
         horizontalLayout_10->addWidget(label_33);
 
-        pushButton_34 = new QPushButton(centralWidget);
+        pushButton_34 = new LineButton(centralWidget);
         pushButton_34->setObjectName(QStringLiteral("pushButton_34"));
         pushButton_34->setMinimumSize(QSize(90, 15));
         pushButton_34->setMaximumSize(QSize(90, 15));
@@ -399,7 +398,7 @@ public:
 
         horizontalLayout_10->addWidget(label_34);
 
-        pushButton_35 = new QPushButton(centralWidget);
+        pushButton_35 = new LineButton(centralWidget);
         pushButton_35->setObjectName(QStringLiteral("pushButton_35"));
         pushButton_35->setMinimumSize(QSize(90, 15));
         pushButton_35->setMaximumSize(QSize(90, 15));
@@ -422,7 +421,7 @@ public:
         horizontalLayout_9 = new QHBoxLayout();
         horizontalLayout_9->setSpacing(0);
         horizontalLayout_9->setObjectName(QStringLiteral("horizontalLayout_9"));
-        pushButton_29 = new QPushButton(centralWidget);
+        pushButton_29 = new LineButton(centralWidget);
         pushButton_29->setObjectName(QStringLiteral("pushButton_29"));
         pushButton_29->setMinimumSize(QSize(15, 90));
         pushButton_29->setMaximumSize(QSize(15, 90));
@@ -437,7 +436,7 @@ public:
 
         horizontalLayout_9->addWidget(label_29);
 
-        pushButton_30 = new QPushButton(centralWidget);
+        pushButton_30 = new LineButton(centralWidget);
         pushButton_30->setObjectName(QStringLiteral("pushButton_30"));
         pushButton_30->setMinimumSize(QSize(15, 90));
         pushButton_30->setMaximumSize(QSize(15, 90));
@@ -452,7 +451,7 @@ public:
 
         horizontalLayout_9->addWidget(label_30);
 
-        pushButton_31 = new QPushButton(centralWidget);
+        pushButton_31 = new LineButton(centralWidget);
         pushButton_31->setObjectName(QStringLiteral("pushButton_31"));
         pushButton_31->setMinimumSize(QSize(15, 90));
         pushButton_31->setMaximumSize(QSize(15, 90));
@@ -467,7 +466,7 @@ public:
 
         horizontalLayout_9->addWidget(label_31);
 
-        pushButton_32 = new QPushButton(centralWidget);
+        pushButton_32 = new LineButton(centralWidget);
         pushButton_32->setObjectName(QStringLiteral("pushButton_32"));
         pushButton_32->setMinimumSize(QSize(15, 90));
         pushButton_32->setMaximumSize(QSize(15, 90));
@@ -490,7 +489,7 @@ public:
 
         horizontalLayout_11->addWidget(label_36);
 
-        pushButton_36 = new QPushButton(centralWidget);
+        pushButton_36 = new LineButton(centralWidget);
         pushButton_36->setObjectName(QStringLiteral("pushButton_36"));
         pushButton_36->setMinimumSize(QSize(90, 15));
         pushButton_36->setMaximumSize(QSize(90, 15));
@@ -507,7 +506,7 @@ public:
 
         horizontalLayout_11->addWidget(label_37);
 
-        pushButton_37 = new QPushButton(centralWidget);
+        pushButton_37 = new LineButton(centralWidget);
         pushButton_37->setObjectName(QStringLiteral("pushButton_37"));
         pushButton_37->setMinimumSize(QSize(90, 15));
         pushButton_37->setMaximumSize(QSize(90, 15));
@@ -524,7 +523,7 @@ public:
 
         horizontalLayout_11->addWidget(label_38);
 
-        pushButton_38 = new QPushButton(centralWidget);
+        pushButton_38 = new LineButton(centralWidget);
         pushButton_38->setObjectName(QStringLiteral("pushButton_38"));
         pushButton_38->setMinimumSize(QSize(90, 15));
         pushButton_38->setMaximumSize(QSize(90, 15));
@@ -549,9 +548,6 @@ public:
         menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 352, 22));
         DotsAndBots->setMenuBar(menuBar);
-        mainToolBar = new QToolBar(DotsAndBots);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        DotsAndBots->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(DotsAndBots);
         statusBar->setObjectName(QStringLiteral("statusBar"));
         DotsAndBots->setStatusBar(statusBar);

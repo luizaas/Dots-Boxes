@@ -7,13 +7,16 @@
     <x>0</x>
     <y>0</y>
     <width>352</width>
-    <height>425</height>
+    <height>408</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>DotsAndBots</string>
   </property>
   <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">*{ background-color: pink;}</string>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
      <number>0</number>
@@ -61,7 +64,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="LineButton" name="pushButton">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -105,7 +108,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="LineButton" name="pushButton_2">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -149,7 +152,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="LineButton" name="pushButton_3">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -200,7 +203,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_8">
+       <widget class="LineButton" name="pushButton_8">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -235,7 +238,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_9">
+       <widget class="LineButton" name="pushButton_9">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -270,7 +273,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_7">
+       <widget class="LineButton" name="pushButton_7">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -305,7 +308,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_22">
+       <widget class="LineButton" name="pushButton_22">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -356,7 +359,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="LineButton" name="pushButton_4">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -400,7 +403,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="LineButton" name="pushButton_5">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -444,7 +447,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_6">
+       <widget class="LineButton" name="pushButton_6">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -495,7 +498,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_10">
+       <widget class="LineButton" name="pushButton_10">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -530,7 +533,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_11">
+       <widget class="LineButton" name="pushButton_11">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -565,7 +568,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_12">
+       <widget class="LineButton" name="pushButton_12">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -600,7 +603,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_23">
+       <widget class="LineButton" name="pushButton_23">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -651,7 +654,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_33">
+       <widget class="LineButton" name="pushButton_33">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -695,7 +698,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_34">
+       <widget class="LineButton" name="pushButton_34">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -739,7 +742,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_35">
+       <widget class="LineButton" name="pushButton_35">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -790,7 +793,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_29">
+       <widget class="LineButton" name="pushButton_29">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -825,7 +828,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_30">
+       <widget class="LineButton" name="pushButton_30">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -860,7 +863,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_31">
+       <widget class="LineButton" name="pushButton_31">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -895,7 +898,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_32">
+       <widget class="LineButton" name="pushButton_32">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -946,7 +949,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_36">
+       <widget class="LineButton" name="pushButton_36">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -990,7 +993,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_37">
+       <widget class="LineButton" name="pushButton_37">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -1034,7 +1037,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_38">
+       <widget class="LineButton" name="pushButton_38">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -1091,17 +1094,16 @@
     </rect>
    </property>
   </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LineButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">LineButton.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="dotsandbots.qrc"/>
  </resources>

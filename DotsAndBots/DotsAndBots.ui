@@ -64,7 +64,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton">
+       <widget class="LineButton" name="p01">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -79,6 +79,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -108,7 +111,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_2">
+       <widget class="LineButton" name="p02">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -123,6 +126,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -152,7 +158,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_3">
+       <widget class="LineButton" name="p03">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -167,6 +173,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -203,7 +212,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="LineButton" name="pushButton_8">
+       <widget class="LineButton" name="p10">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -219,10 +228,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_17">
+       <widget class="QLabel" name="L11">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -238,42 +250,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_9">
-        <property name="minimumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_19">
-        <property name="minimumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="LineButton" name="pushButton_7">
+       <widget class="LineButton" name="p11">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -289,10 +266,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_18">
+       <widget class="QLabel" name="L12">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -308,7 +288,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_22">
+       <widget class="LineButton" name="p12">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -323,6 +303,47 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="L13">
+        <property name="minimumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="LineButton" name="p13">
+        <property name="minimumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
         </property>
        </widget>
       </item>
@@ -359,7 +380,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_4">
+       <widget class="LineButton" name="p21">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -374,6 +395,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -403,7 +427,10 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_5">
+       <widget class="LineButton" name="p22">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -418,6 +445,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -447,7 +477,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_6">
+       <widget class="LineButton" name="p23">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -462,6 +492,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -498,7 +531,10 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="LineButton" name="pushButton_10">
+       <widget class="LineButton" name="p30">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -514,10 +550,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_20">
+       <widget class="QLabel" name="L21">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -533,42 +572,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_11">
-        <property name="minimumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_21">
-        <property name="minimumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="LineButton" name="pushButton_12">
+       <widget class="LineButton" name="p31">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -584,10 +588,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_22">
+       <widget class="QLabel" name="L22">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -603,7 +610,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_23">
+       <widget class="LineButton" name="p32">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -618,6 +625,47 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="L23">
+        <property name="minimumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="LineButton" name="p33">
+        <property name="minimumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
         </property>
        </widget>
       </item>
@@ -654,7 +702,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_33">
+       <widget class="LineButton" name="p41">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -669,6 +717,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -698,7 +749,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_34">
+       <widget class="LineButton" name="p42">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -713,6 +764,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -742,7 +796,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_35">
+       <widget class="LineButton" name="p43">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -757,6 +811,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -793,7 +850,7 @@
        <number>0</number>
       </property>
       <item>
-       <widget class="LineButton" name="pushButton_29">
+       <widget class="LineButton" name="p50">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -809,10 +866,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_29">
+       <widget class="QLabel" name="L31">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -828,42 +888,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_30">
-        <property name="minimumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>15</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="flat">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_30">
-        <property name="minimumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>90</width>
-          <height>90</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="LineButton" name="pushButton_31">
+       <widget class="LineButton" name="p51">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -879,10 +904,13 @@
         <property name="flat">
          <bool>true</bool>
         </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_31">
+       <widget class="QLabel" name="L32">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -898,7 +926,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_32">
+       <widget class="LineButton" name="p52">
         <property name="minimumSize">
          <size>
           <width>15</width>
@@ -913,6 +941,47 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="L33">
+        <property name="minimumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>90</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="LineButton" name="p53">
+        <property name="minimumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>2</number>
         </property>
        </widget>
       </item>
@@ -949,7 +1018,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_36">
+       <widget class="LineButton" name="p61">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -964,6 +1033,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -993,7 +1065,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_37">
+       <widget class="LineButton" name="p62">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -1008,6 +1080,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>
@@ -1037,7 +1112,7 @@
        </widget>
       </item>
       <item>
-       <widget class="LineButton" name="pushButton_38">
+       <widget class="LineButton" name="p63">
         <property name="minimumSize">
          <size>
           <width>90</width>
@@ -1052,6 +1127,9 @@
         </property>
         <property name="flat">
          <bool>true</bool>
+        </property>
+        <property name="mode" stdset="0">
+         <number>1</number>
         </property>
        </widget>
       </item>

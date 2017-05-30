@@ -11,15 +11,15 @@ class DotsAndBots : public QMainWindow
 {
     Q_OBJECT
 
-public:
-    explicit DotsAndBots(QWidget *parent = 0);
-    ~DotsAndBots();
+    public:
+        explicit DotsAndBots(QWidget *parent = 0);
+        ~DotsAndBots();
 
-private:
-    Ui::DotsAndBots *ui;
+    private:
+        Ui::DotsAndBots *ui;
 
-private slots:
-    void handleButton();
+    private slots:
+        void handleButton();
 };
 
 

@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         DotsAndBots.cpp \
-    LineButton.cpp
+    LineButton.cpp \
+    Gamer.cpp
 
 HEADERS  += DotsAndBots.h \
-    LineButton.h
+    LineButton.h \
+    Gamer.h
 
 FORMS    += DotsAndBots.ui
 

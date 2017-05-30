@@ -18,6 +18,7 @@ signals:
 public slots:
     void setMode(Qt::Orientation mode); //metodo set
     void setColor(QColor color);
+    void reset();
 private:
     Qt::Orientation m_mode;
     QColor m_color;

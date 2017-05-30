@@ -17,6 +17,10 @@ public:
 
 private:
     Ui::DotsAndBots *ui;
+
+private slots:
+    void handleButton();
 };
+
 
 #endif // DOTSANDBOTS_H

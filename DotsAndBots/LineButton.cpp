@@ -3,7 +3,7 @@
 LineButton::LineButton(QWidget *parent) :
     QPushButton(parent),
     m_mode(Qt::Horizontal),
-    m_color(QColor("#663399")) {
+    m_color(Qt::transparent) {
     this->updateStyleSheet();
 }
 
@@ -21,7 +21,13 @@ void LineButton::setColor(QColor color){
            m_color = color;
            emit colorChanged(m_color);
             this->setEnabled(false);
+           this->updateStyleSheet();
       }
+}
+
+void LineButton::reset(){
+    this->setColor("transparent");
+    this->setEnabled(true);
 }
 
 void LineButton::updateStyleSheet(){

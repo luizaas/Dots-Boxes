@@ -26,11 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
         DotsAndBots.cpp \
     LineButton.cpp \
-    Gamer.cpp
+    Gamer.cpp \
+    Quadrado.cpp
 
 HEADERS  += DotsAndBots.h \
     LineButton.h \
-    Gamer.h
+    Quadrado.h
 
 FORMS    += DotsAndBots.ui
 
